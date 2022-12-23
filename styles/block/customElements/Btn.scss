@@ -1,0 +1,207 @@
+@import '../../base/variables.scss';
+
+$color: $main-color;
+
+
+.btn-container {
+	button {
+		background-color: #ffffff;
+		border: none;
+	}
+	a {
+		text-decoration: none;
+		color: inherit; }
+	  
+	  .cta {
+		position: relative;
+		margin: auto;
+		padding: 19px 22px;
+		transition: all .2s ease; }
+		.cta:before {
+		  content: "";
+		  position: absolute;
+		  top: 1px;
+		  left: 0;
+		  display: block;
+		  border-radius: 28px;
+		  background: rgba(7, 215, 230, 0.2);
+		  width: 56px;
+		  height: 56px;
+		  transition: all .3s ease; }
+		.cta span {
+		  color: black;
+		  position: relative;
+		  font-size: 16px;
+		  line-height: 18px;
+		  font-weight: 900;
+		  letter-spacing: .25em;
+		  text-transform: uppercase;
+		  vertical-align: middle; }
+		.cta svg {
+		  position: relative;
+		  top: 0;
+		  margin-left: 10px;
+		  fill: none;
+		  stroke-linecap: round;
+		  stroke-linejoin: round;
+		  stroke: #111;
+		  stroke-width: 2;
+		  transform: translateX(-5px);
+		  transition: all .3s ease; }
+		.cta:hover:before {
+		  width: 100%;
+		  background: rgba(7, 215, 230, 0.4); }
+		.cta:hover svg {
+		  transform: translateX(0); }
+		.cta:active {
+		  transform: scale(0.96); }
+}
+
+
+
+// $colors: (
+//   fill: #a972cb,
+//   pulse: #ef6eae, 
+//   close: #ff7f82, 
+//   raise: #ffa260, 
+//   up: #e4cb58, 
+//   slide: #8fc866, 
+//   offset: #19bc8b
+// );
+
+// .slide:hover,
+// .slide:focus {
+//   box-shadow: inset 6.5em 0 0 0 var(--hover);
+// }
+// .slide {
+// 	color: #8fc866;
+// 	transition: 0.25s;
+// 	background: none;
+// 	border: 2px solid;
+// 	font: inherit;
+// 	line-height: 1;
+// 	margin: 0.5em;
+// 	padding: 1em 2em;
+// 	&:hover,
+// 	&:focus { 
+// 	  border-color: var(--hover);
+// 	  color: #fff;
+// 	}
+// }
+
+
+
+// .btn_custom {
+// 	border: none;
+// 	background-color: #ffffff;
+// 	&_span {
+// 		display: inline-block;
+// 		padding: 8px 29px;
+// 		border-radius: 10rem;
+// 		color: #fff;
+// 		letter-spacing: .15rem;
+// 		transition: all .3s;
+// 		position: relative;
+// 		overflow: hidden;
+// 		z-index: 1;
+// 		width: 214px;
+// 		height: 50px;
+// 		display: flex;
+// 		align-items: center;
+// 		font-style: normal;
+// 		font-weight: 400;
+// 		font-size: 18px;
+// 		letter-spacing: 0.025em;
+// 		text-transform: lowercase;
+// 		&:after {
+// 			content: '';
+// 			position: absolute;
+// 			bottom: 0;
+// 			left: 0;
+// 			width: 100%;
+// 			height: 100%;
+// 			background-color: $color;
+// 			border-radius: 10rem;
+// 			z-index: -2;
+// 		}
+
+// 		&:before {
+// 			content: '';
+// 			position: absolute;
+// 			bottom: 0;
+// 			left: 0;
+// 			width: 0%;
+// 			height: 100%;
+// 			background-color: darken($color, 15%);
+// 			transition: all .3s;
+// 			border-radius: 10rem;
+// 			z-index: -1;
+// 		}
+
+// 		&:hover {
+// 			color: #fff;
+
+// 			&:before {
+// 				width: 100%;
+// 			}
+// 		}
+// 	}
+// }
+// .btn_custom-black {
+// 	border: none;
+// 	background-color: #ffffff;
+// 	&_span {
+// 		display: inline-block;
+// 		padding: 8px 29px;
+// 		border-radius: 10rem;
+// 		color: black;
+// 		letter-spacing: .15rem;
+// 		transition: all .3s;
+// 		position: relative;
+// 		overflow: hidden;
+// 		z-index: 1;
+// 		width: auto;
+// 		max-width: 214px;
+// 		height: 50px;
+// 		display: flex;
+// 		align-items: center;
+// 		font-style: normal;
+// 		font-weight: 400;
+// 		font-size: 16px;
+// 		letter-spacing: 0.025em;
+// 		text-transform: lowercase;
+// 		border: 4px solid darken($main-color, 15%);
+// 		&:after {
+// 			content: '';
+// 			position: absolute;
+// 			bottom: 0;
+// 			left: 0;
+// 			width: 100%;
+// 			height: 100%;
+// 			background-color: #ffffff;
+// 			border-radius: 10rem;
+// 			z-index: -2;
+// 		}
+
+// 		&:before {
+// 			content: '';
+// 			position: absolute;
+// 			bottom: 0;
+// 			left: 0;
+// 			width: 0%;
+// 			height: 100%;
+// 			background-color: darken($color, 15%);
+// 			transition: all .3s;
+// 			border-radius: 10rem;
+// 			z-index: -1;
+// 		}
+
+// 		&:hover {
+// 			color: #fff;
+
+// 			&:before {
+// 				width: 100%;
+// 			}
+// 		}
+// 	}
+// }

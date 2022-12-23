@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"..\\components\\Promo\\Promo.js -> ./Slider/Slider":{"id":"..\\components\\Promo\\Promo.js -> ./Slider/Slider","files":["static/chunks/components_Promo_Slider_Slider_js.js"]}}

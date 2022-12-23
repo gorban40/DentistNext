@@ -1,0 +1,48 @@
+.resualt {
+    margin-top: 60px;
+    min-height: 758px;
+    position: relative;
+    overflow: hidden;
+    &__descr {
+        text-align: end;
+    }
+    &__wrapper {
+        margin-top: 43px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        &_btn {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+    &__img {
+        position: absolute;
+        z-index: -1;
+        bottom: -10px;
+    }
+    &__accordion{
+        width: 43%;
+        &_w43 {
+            width: 53%;
+        }
+        &_w100 {
+            width: 100%;
+        }
+        &_w70 {
+            width: 70%;
+        }
+        &_w25{
+            width: 25%;
+        }
+    }
+    &__accordion > div {
+        padding: 20px;
+    }
+}
+@media (max-width: 1199px) {
+    .resualt {
+        display: none;
+    }
+}
